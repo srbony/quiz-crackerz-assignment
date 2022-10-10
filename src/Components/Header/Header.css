@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    box-shadow: 10px 5px 5px white;
+    background-color: aliceblue;
+}
+
+.header h3 {
+    color: plum;
+}
+
+.header a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: plum;
+    font-size: medium;
+    font-weight: 500;
+
+}
