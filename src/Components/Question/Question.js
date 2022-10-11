@@ -1,24 +1,29 @@
-// import React from 'react';
-// import { useLoaderData } from 'react-router-dom';
-// import SingleQuestion from '../SingleQuestion/SingleQuestion';
+import React from 'react';
+import { useLoaderData } from 'react-router-dom';
+import QuizOption from '../QuizOption/QuizOption';
 
-// const Question = () => {
-//     const questionData = useLoaderData()
-//     const questions = questionData.data.questions
-//     console.log(questionData.data.questions
-//     )
-//     return (s
-//         <div>
-//             <h2>this is question</h2>
-//             <p>SOME QUESTIONS{questions.length}</p>
-//             {
-//                 questions.map(option => <SingleQuestion
-//                     option={option}
-//                     key={option.id}
-//                 ></SingleQuestion>)
-//             }
-//         </div>
-//     );
-// };
 
-// export default Question;
+const Question = () => {
+    const questionData = useLoaderData()
+    const questions = questionData.data.questions
+    console.log(questionData)
+
+    console.log(questions)
+
+    return (
+        < div >
+          
+            <h2>{questionData.data.name}</h2>
+            {
+                questions.map(quiz => <QuizOption
+                    quiz={quiz}
+                    key={quiz.id}
+                ></QuizOption>)
+            }
+
+
+        </div >
+    );
+};
+
+export default Question;

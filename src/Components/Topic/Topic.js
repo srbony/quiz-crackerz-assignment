@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Topic = ({ topic }) => {
     const { id, name, logo } = topic;
     return (
-        <div className='single-topic'>
+        <div className='single-topic '>
             <img src={logo} alt="" />
             <h4 className='text-blue-500 text-1xl font-semibold'>{name}</h4>
             {/* <button>Start Practice <p>   <ArrowLongRightIcon className="h-4 w-4 text-blue-500" /></p> </button> */}

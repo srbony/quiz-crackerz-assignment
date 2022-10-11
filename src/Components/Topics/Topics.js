@@ -11,12 +11,12 @@ const Topics = () => {
     const topics = topicsData.data;
     console.log(topics);
     return (
-        <div>
+        <div >
             <div className='header-logo'>
                 <img src={logo} alt="" />
             </div>
 
-            <div className='topics grid  md:grid-cols-3 sm:grid-cols-1'>
+            <div className='topics grid '>
                 {
                     topics.map(topic => <Topic
                         topic={topic}
