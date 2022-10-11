@@ -16,7 +16,7 @@ const Topics = () => {
                 <img src={logo} alt="" />
             </div>
 
-            <div className='topics'>
+            <div className='topics grid  md:grid-cols-3 sm:grid-cols-1'>
                 {
                     topics.map(topic => <Topic
                         topic={topic}
