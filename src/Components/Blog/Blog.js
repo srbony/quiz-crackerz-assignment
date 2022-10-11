@@ -14,6 +14,10 @@ const Blog = () => {
 
 
                 </div>
+                <div className='bg-slate-500 m-8 p-8 rounded-lg text-white mt-4'>
+                    <h2>useRef Hook</h2>
+                    <p>The useRef is a hook that allows to directly create a reference to the DOM element in the functional component. Syntax: const refContainer = useRef(initialValue); The useRef returns a mutable ref object.</p>
+                </div>
 
             </div>
 
