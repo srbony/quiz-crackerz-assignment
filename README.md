@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+###
+Project Name:Query Portal
+
+###
+Livesite Link:[https://resilient-blini-61217d.netlify.app/]
+
+###
+1.In this project i create some router
+2.This project is related to Programming Language ,When clicked on the any topics of language ,IT Will create some quiz which is related to this topics,and show the correct answer of any option in the react tostyfy.
+3.I create rechart for total quize marks of the topics.
+4.And i also give some answer of the questions of project requirement.
