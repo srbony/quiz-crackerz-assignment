@@ -12,8 +12,8 @@ const Question = () => {
 
     return (
         < div >
-          
-            <h2>{questionData.data.name}</h2>
+
+            <h2 className='text-amber-500 font-semibold text-2xl'>Quiz Of:{questionData.data.name}</h2>
             {
                 questions.map(quiz => <QuizOption
                     quiz={quiz}

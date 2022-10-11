@@ -19,6 +19,9 @@ function App() {
     {
       path: '/', element: <Main></Main>,
       children: [
+        {
+          path: '/topics', element: <Topics></Topics>
+        },
 
         {
           path: '/',
