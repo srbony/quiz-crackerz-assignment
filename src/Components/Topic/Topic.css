@@ -1,0 +1,12 @@
+.single-topic {
+    border: 1px solid lightblue;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.single-topic img {
+    height: 200px;
+    margin-top: 10px;
+    background-color: lightblue;
+
+}
