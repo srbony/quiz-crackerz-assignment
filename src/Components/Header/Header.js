@@ -23,6 +23,7 @@ const Header = () => {
             </div>
             <div className={`flex md:flex sm:flex  ${open ? 'top-6' : 'top-[-120px]'}`}>
 
+                <NavLink to='/home' className={({ isActive }) => isActive ? 'text-purple-600' : 'text-gray-700'}>Home</NavLink>
                 <NavLink to='/topics' className={({ isActive }) => isActive ? 'text-purple-600' : 'text-gray-700'}>Topics</NavLink>
                 <NavLink to='/statistics' className={({ isActive }) => isActive ? 'text-purple-600' : 'text-gray-700'}>Statistics</NavLink>
                 <NavLink to='/blog' className={({ isActive }) => isActive ? 'text-purple-600' : 'text-gray-700'}>Blog</NavLink>

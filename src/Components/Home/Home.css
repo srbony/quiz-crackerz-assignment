@@ -1,0 +1,27 @@
+.background {
+    margin-top: 10px;
+    /* height: 100%; */
+    /* padding: 50px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+
+.text {
+    /* font-size: 80px; */
+    padding: 100px;
+    /* color: white; */
+    /* text-align: center; */
+}
+
+
+
+@media screen and (max-width:576px) {
+    . home-topics {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
