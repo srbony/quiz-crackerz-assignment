@@ -14,9 +14,11 @@ const QuizOption = ({ quiz }) => {
         // console.log(option)
         if (option === correctAnswer) {
             toast('Answer is correct')
+
         }
         else {
             toast('Answer is Incorrect')
+
         }
 
 
@@ -38,14 +40,18 @@ const QuizOption = ({ quiz }) => {
 
     return (
         <div>
+
             <h2>{question}</h2>
+
             <EyeIcon className="h-6 w-6 text-blue-500 ml-auto mr-5" onClick={() => handleIcon(correctAnswer)} />
             {/* <h3>{question}</h3> */}
             <div className='bg-indigo-300 rounded-lg m-8 p-8 flex items-center sm:grid-cols-1 justify-items-center sm:w-full sm:text-sm'>
 
+
                 <label htmlFor="">{options.options}</label>
 
                 <div>
+
                     {
                         options.map(option => <div>
                             <input onClick={() => handleOption(option)} type="radio" name="fav_language" />{option}

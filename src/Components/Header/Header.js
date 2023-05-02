@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 import { useState } from 'react';
@@ -7,7 +7,7 @@ import { useState } from 'react';
 const Header = () => {
     const [open, setOpen] = useState(false)
     return (
-        <div className='header mt-2 p-4'>
+        <div className='header mt-2 p-4 bg-indigo-100'>
             <div onClick={() => setOpen(!open)} className="h-6 w-6 text-blue-500 md:hidden">
                 {
                     open ?
@@ -18,8 +18,8 @@ const Header = () => {
             </div>
 
             <div>
-
-                <h3>Query Portal</h3>
+                <Link to='/home'><h3>Query Portal</h3></Link>
+                {/* <h3>Query Portal</h3> */}
             </div>
             <div className={`flex md:flex sm:flex  ${open ? 'top-6' : 'top-[-120px]'}`}>
 
